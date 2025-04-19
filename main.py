@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 18 11:02:48 2025
-
-@author: Krishna Shah
-"""
-
 import streamlit as st
 import pandas as pd
 import sqlite3
