@@ -48,33 +48,54 @@ SQLite (Local DB)
 Spyder IDE + Anaconda
 
 
-## 🔧 How to Run Locally
 
-**STEP 1** : Clone the repo:
+## 🛠️ How to Run Locally
 
-git clone https://github.com/Krishah27/daily-budget-pro
+Follow these steps to set up and run the app on your local machine:
+
+### STEP 1️⃣ : Clone the repository
+
+git clone https://github.com/Krishah27/daily-budget-pro <br>
 cd daily-budget-pro
 
-**STEP 2** : Install dependencies:
 
-pip install -r requirements.txt
+### STEP 2️⃣ : Install dependencies
 
-**STEP 3** : Run the app:
+Make sure you have Python installed. Then install required packages using:
+
+
+pip install -r Requirements.txt
+
+
+### STEP 3️⃣ : Set up the database
+
+Run the following script once to create the initial SQLite database (`expenses.db`):
+
+python setup_db.py
+
+This will automatically create the necessary tables in the database.
+
+### STEP 4️⃣ : Run the app
+
+Launch the Streamlit app using:
+
 
 streamlit run main.py
 
-The app will open in your default browser at http://localhost:8501.
 
-💡 This app does not include a pre-filled database. When you run it, a new expenses.db will be created automatically for you.
+Your browser will open at `http://localhost:8501` and the app will be live!
 
 
-## 📝 Requirements
+⚠️ **Note**: If `expenses.db` already exists, you don’t need to run `setup_db.py` again unless you want to reset the data.
 
-streamlit==1.32.0
-pandas==2.2.1
-plotly==5.19.0
-altair==5.2.0
-Pillow==10.2.0
+
+## REQUIREMENTS 
+
+streamlit==1.32.0 <br>
+pandas==2.2.1 <br>
+plotly==5.19.0 <br>
+altair==5.2.0 <br>
+Pillow==10.2.0 <br>
 
 SQLite is built-in with Python. No need to install it separately.
 
