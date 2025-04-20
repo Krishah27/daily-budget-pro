@@ -20,17 +20,27 @@ Being a first-year B.Tech student, I wanted to step beyond the classroom and cre
 3. Visualize real-time data
 
 
-## 🚀 Features
+## ✅ Features
 
-✅ Login / Signup authentication (local SQLite based)
+🔐 Secure user login/signup system
 
-✅ Add income, expenses & savings in a few clicks
+📝 Add and categorize daily expenses with optional notes
 
-✅ Filter records by date, category, or type
+💼 Set and track monthly income
 
-✅ Interactive charts (Pie chart)
+📊 View summary with pie chart visualization by category
 
-✅ All data stored locally in expenses.db
+💾 All data stored in local SQLite database
+
+🎯 Set savings goals and track progress with visual indicators
+
+📅 Automatically tracks expenses by date
+
+📈 Monthly scorecard based on income and expenses
+
+💡 Daily budgeting tips to encourage healthy financial habits
+
+⚠️ Real-time warning popup when spending too much in a specific category (like “You're spending more on Food!”)
 
 
 ## 🛠️ Tech Stack
@@ -101,7 +111,22 @@ SQLite is built-in with Python. No need to install it separately.
 
 ## 🌟 What Makes This Project Unique?
 
-There are many expense tracking apps out there — but here’s what makes Daily Budget Pro stand out from the crowd:
+There are many expense tracking apps out there — but here’s what makes Daily Budget Pro stand out from the crowd :
+
+✅ Smart Overspending Alerts
+→ The app includes a real-time warning system that notifies users when they overspend in specific categories (e.g., Food, Shopping). It’s like having a mini financial advisor watching your habits and keeping you in check.
+
+✅ Daily Financial Tips
+→ Users receive a fresh budgeting tip every day to improve their financial habits, making this app both a tracker and a coach.
+
+✅ Interactive Visual Summaries
+→ Clear and colorful pie charts help users understand their spending patterns instantly. It’s not just data — it’s insight.
+
+✅ Monthly Scorecard
+→ Based on income vs spending, users receive a monthly score (out of 10) to reflect how well they're managing money — a gamified motivator to do better!
+
+✅ Savings Goal Tracker
+→ Users can set savings goals with deadlines and visually track their progress, making goal setting both fun and rewarding.
 
 ✅ Offline-First, No Sign-Up Needed
 → Unlike apps like Mint or Spendee which require constant internet & account setup, this runs entirely on your local machine. Just open and use !
@@ -124,6 +149,7 @@ There are many expense tracking apps out there — but here’s what makes Daily
 ✅ Anaconda + Spyder Ready
 → Most budget apps run on cloud/web platforms. This is made with beginners in mind — fully compatible with Anaconda and Spyder IDE.
 
+
 ## 📈 Future Improvements
 
 Add Google login / Firebase integration
@@ -136,7 +162,8 @@ Monthly budget reminders
 
 ## 🙋‍♂️ About Me
 
-Hello ! I’m a first-year Computer Science student passionate about building real-world projects using Python and AI. This project is one of my first attempts at building a fully functional app — and I’m really proud of it! I’m just starting my journey into software development, and I can’t wait to learn more.
+Hey ! I’m a first-year Computer Science student passionate about building real-world projects using Python and AI. This project is one of my first attempts at building a fully functional app — and I’m really proud of it ! I’m just starting my journey into software development, and I can’t wait to learn more. I believe in learning by building, and I'm constantly exploring ways to improve everyday life with technology.
+Looking forward to growing as a developer and building more impactful tools !
 
 ## Let’s connect! 🔗 https://www.linkedin.com/in/krishna-shah-9a1a27316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
